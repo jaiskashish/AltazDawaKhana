@@ -5,8 +5,7 @@
     <title>JSP - Hello World</title>
 </head>
 <body>
-<h1>Welcome Kashish Jaiwsal
-</h1>
+<h1 style="color:#ff0021">Welcome Kashish Jaiwsal Pagal</h1>
 <br/>
 <a href="hello-servlet">Hello Servlet</a>
 </body>
