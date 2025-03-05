@@ -1,0 +1,37 @@
+.vertical-marquee {
+  height: 300px;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(198, 236, 198);
+  box-sizing: border-box;
+}
+
+.marquee-wrapper {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  width: 100%;
+  animation: vertical-marquee 20s linear infinite;
+}
+
+.marquee-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.marquee-content h5 {
+  margin: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+@keyframes vertical-marquee {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+

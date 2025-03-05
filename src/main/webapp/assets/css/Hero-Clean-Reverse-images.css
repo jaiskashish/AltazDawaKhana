@@ -1,0 +1,8 @@
+.fit-cover {
+  object-fit: cover;
+}
+
+.card:hover .column-1 {
+  background-color: #ffcc00;
+}
+

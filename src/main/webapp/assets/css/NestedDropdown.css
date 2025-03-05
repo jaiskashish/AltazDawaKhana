@@ -1,0 +1,54 @@
+/* Ensure main dropdown opens on hover */
+
+.nav-item.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Ensure nested dropdown opens to the right */
+
+.dropdown-menu .nested-dropdown {
+  left: 100%;
+  top: 0;
+  margin-left: 0.1rem;
+  display: none;
+}
+
+/* Show nested dropdown on hover */
+
+.nav-item.dropdown .dropdown-menu .nav-item:hover > .nested-dropdown {
+  display: block;
+}
+
+/* Show first-level dropdown on hover */
+
+.navbar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+/* Hide nested dropdowns by default */
+
+.navbar .dropdown-menu .dropdown-menu {
+  display: none;
+  left: 100%;
+  top: 0;
+  margin-left: 0.1rem;
+}
+
+/* Show nested dropdown only when its parent is hovered */
+
+.navbar .dropdown-menu .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.dropend .dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /*width: 100%;*/
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: var(--bs-dropdown-link-hover-color);
+  background-color: rgba(255,255,255,0);
+}
+

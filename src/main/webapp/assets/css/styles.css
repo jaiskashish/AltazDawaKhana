@@ -1,0 +1,28 @@
+body{
+  font-family: 'DM Sans',sans-serif !important;
+}
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+}
+
+.owl-nav button {
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 90px!important;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.owl-nav button:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+/* Show dropdown on hover */
+
