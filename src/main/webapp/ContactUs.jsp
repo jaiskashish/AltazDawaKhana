@@ -64,7 +64,7 @@
                                         </svg></div>
                                     <div class="px-2">
                                         <h6 class="mb-0">Location</h6>
-                                        <p class="mb-0">S-54 New Sedanpor, New Seelampur, Delhi, 110053</p>
+                                        <p class="mb-0">S-54, New Seelampur, Delhi, 110053</p>
                                     </div>
                                 </div>
                             </div>
