@@ -419,14 +419,14 @@
                         <h5 class="fs-6" style="font-weight: bold;">About</h5>
                         <hr style="height: 1px;border-width: 2px;width: auto;">
                         <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="AboutUs.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">About Us</a></li>
+                            <li><a class="link-secondary" href="AboutUs.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">About Us</a></li><li><a class="link-secondary" href="ContactUs.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Contact Us</a></li>
                             <li><a class="link-secondary" href="Unani.jsp" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Unani</a></li>
                             <li><a class="link-secondary" href="History.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">History</a></li>
                             <li><a class="link-secondary" href="UnaniTreatment.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Treatment</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                        <h5 class="fs-6" style="font-weight: bold;">Why Dr. Altaj</h5>
+                        <h5 class="fs-6" style="font-weight: bold;">Why  Altaj Dawakhana</h5>
                         <hr style="height: 1px;border-width: 2px;">
                         <ul class="list-unstyled">
                             <li><a class="link-secondary" href="Awards.jsp" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Awards</a></li>
