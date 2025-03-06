@@ -1,82 +1,299 @@
-/* From Uiverse.io by david-mohseni */
-
-.wrapper {
-  display: inline-flex;
-  list-style: none;
-  /*height: 120px;*/
-  /*width: 100%;*/
-  /*padding-top: 40px;*/
-  /*font-family: "Poppins", sans-serif;*/
-  justify-content: center;
-  align-items: center;
-}
-
-.wrapper .icon {
-  position: relative;
-  background: #fff;
+/* From Uiverse.io by vinodjangid07 */
+.button {
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  background-color: #3b5998;
+  border: none;
   border-radius: 50%;
-  margin: 10px;
-  width: 50px;
-  height: 50px;
-  font-size: 18px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+  0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+  0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all .3s;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  justify-content: center;
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  padding-bottom: 3px;
 }
 
-.wrapper .tooltip {
-  position: absolute;
-  top: 0;
-  font-size: 14px;
-  background: #fff;
-  color: #fff;
-  padding: 5px 8px;
-  border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+.button::before {
+  background-color: transparent;
+  content: "f";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button::after {
+  content: "acebook";
+  background-color: transparent;
+  font-size: 0;
   opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  transform: translateX(60px);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-.wrapper .tooltip::before {
-  position: absolute;
-  content: "";
-  height: 8px;
-  width: 8px;
-  background: #fff;
-  bottom: -3px;
-  left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+.button:hover {
+  width: 160px;
+  border-radius: 30px;
 }
 
-.wrapper .icon:hover .tooltip {
-  top: -45px;
+.button:hover::after {
   opacity: 1;
-  visibility: visible;
-  pointer-events: auto;
+  font-size: 1.6em;
+  transform: translateX(0px);
 }
 
-.wrapper .icon:hover span, .wrapper .icon:hover .tooltip {
-  text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.1);
+.button:hover .shine {
+  transform: translate(-70px ,10px);
+}
+.button1 {
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  background-color: #FF0000;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+  0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+  0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 3px;
 }
 
-.wrapper .facebook:hover, .wrapper .facebook:hover .tooltip, .wrapper .facebook:hover .tooltip::before {
-  background: #1877f2;
-  color: #fff;
+.button1::before {
+  background-color: transparent;
+  content: "";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-.wrapper .twitter:hover, .wrapper .twitter:hover .tooltip, .wrapper .twitter:hover .tooltip::before {
-  background: #1da1f2;
-  color: #fff;
+.button1::after {
+  content: "Instagram";
+  background-color: transparent;
+  font-size: 0;
+  opacity: 0;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  transform: translateX(60px);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
 }
 
-.wrapper .instagram:hover, .wrapper .instagram:hover .tooltip, .wrapper .instagram:hover .tooltip::before {
-  background: #e4405f;
-  color: #fff;
+.button1:hover {
+  width: 160px;
+  border-radius: 30px;
 }
 
+.button1:hover::after {
+  opacity: 1;
+  font-size: 1.6em;
+  transform: translateX(0px);
+}
+
+.button1:hover .shine {
+  transform: translate(-70px ,10px);
+}
+.button2 {
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  background-color: #FFFFF;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+  0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+  0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.button2::before {
+  background-color: transparent;
+  content: "";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button2::after {
+  content: "Twitter";
+  background-color: transparent;
+  font-size: 0;
+  opacity: 0;
+  font-weight: 700;
+  color: #000000;
+  z-index: 5;
+  transition: all .3s;
+  transform: translateX(60px);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button2:hover {
+  width: 160px;
+  border-radius: 30px;
+
+}
+
+.button2:hover::after {
+  opacity: 1;
+  font-size: 1.6em;
+  transform: translateX(0px);
+}
+
+.button2:hover .shine {
+  transform: translate(-70px ,10px);
+}
+.button3 {
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  background-color: #FFFFF;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+  0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+  0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.button3::before {
+  background-color: transparent;
+  content: "";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button3::after {
+  content: "YouTube";
+  background-color: transparent;
+  font-size: 0;
+  opacity: 0;
+  font-weight: 700;
+  color: #000000;
+  z-index: 5;
+  transition: all .3s;
+  transform: translateX(60px);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button3:hover {
+  width: 160px;
+  border-radius: 30px;
+
+}
+
+.button3:hover::after {
+  opacity: 1;
+  font-size: 1.6em;
+  transform: translateX(0px);
+}
+
+.button3:hover .shine {
+  transform: translate(-70px ,10px);
+}
+.button4 {
+  width: 45px;
+  height: 45px;
+  margin:5px;
+  background-color: #FFFFF;
+  border: none;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+  0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+  0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+  transition: all .3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding-bottom: 3px;
+}
+
+.button4::before {
+  background-color: transparent;
+  content: "";
+  font-size: 1.6em;
+  font-weight: 700;
+  color: white;
+  z-index: 5;
+  transition: all .3s;
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button4::after {
+  content: "LinkedIn";
+  background-color: transparent;
+  font-size: 0;
+  opacity: 0;
+  font-weight: 700;
+  color: #000000;
+  z-index: 5;
+  transition: all .3s;
+  transform: translateX(60px);
+  font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+}
+
+.button4:hover {
+  width: 160px;
+  border-radius: 30px;
+
+}
+
+.button4:hover::after {
+  opacity: 1;
+  font-size: 1.6em;
+  transform: translateX(0px);
+}
+
+.button4:hover .shine {
+  transform: translate(-70px ,10px);
+}
