@@ -78,7 +78,7 @@
         </div>
     </nav>
     <div class="owl-carousel">
-        <div style="margin: 86px 0px 0px;margin-top: 73px;position: relative;"><img class="img-fluid" src="assets/img/Banner1.png"><button class="btn btn-primary custom-btn" data-bss-hover-animate="pulse" type="button" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button></div>
+        <div style="margin: 86px 0px 0px;margin-top: 73px;position: relative;"><img class="img-fluid" src="assets/img/Banner1.gif"><button class="btn btn-primary custom-btn" data-bss-hover-animate="pulse" type="button" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button></div>
         <div style="margin: 86px 0px 0px;margin-top: 73px;position: relative;"><img class="img-fluid" src="assets/img/Banner2.png"><button class="btn btn-primary custom-btn2" data-bss-hover-animate="pulse" type="button" style="background: #00498e;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button></div>
         <div style="margin: 86px 0px 0px;margin-top: 73px;position: relative;"><img class="img-fluid" src="assets/img/Banner3.gif"><button class="btn btn-primary custom-btn2" data-bss-hover-animate="pulse" type="button" style="background: #4cbf83;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button></div>
         <div style="margin: 86px 0px 0px;margin-top: 73px;position: relative;"><img class="img-fluid" src="assets/img/Banner4.gif"><button class="btn btn-primary custom-btn4" data-bss-hover-animate="pulse" type="button" style="background: #2093df;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button></div>
@@ -192,7 +192,7 @@
                     <div class="row justify-content-center">
                         <div class="col-lg-9">
                             <div class="row justify-content-center">
-                                <div class="col-11 col-lg-7 align-self-center"><img class="img-fluid" alt="Beautiful outdoor wedding scene with couple embracing, showcasing love and togetherness." src="assets/img/pexels-photo-247958.jpeg" style="border-radius: 15px;"></div>
+                                <div class="col-11 col-lg-7 align-self-center"><img class="img-fluid" alt="Beautiful outdoor wedding scene with couple embracing, showcasing love and togetherness." src="assets/img/pexels-photo-247958.gif" style="border-radius: 15px;"></div>
                                 <div class="col">
                                     <div class="container mt-2">
                                         <div class="row gy-2">
@@ -469,7 +469,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Increase your weight fast</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -493,7 +493,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Loss your weight safely</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -517,7 +517,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Perfect size perfect figure</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img img-fluid" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -541,7 +541,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Make Loose Vagina Tight</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -565,7 +565,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Successful Treatment</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -589,7 +589,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Be Confident</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
@@ -613,7 +613,7 @@
                                                 <p style="height: 27.5px;background: rgba(255,255,255,0.7);width: 182.538px;border-radius: 8px;color: rgb(0,0,0);font-weight: bold;">Revive Intimate Wellness</p>
                                             </div>
                                             <div class="row">
-                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="https://s25.postimg.cc/65hsttv9b/cta-arrow.png"></div>
+                                                <div class="col text-center d-flex justify-content-center"><img class="flip-box-img" src="assets/img/CtaArrow.png"></div>
                                             </div>
                                         </div>
                                     </div>
