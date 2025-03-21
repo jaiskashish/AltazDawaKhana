@@ -44,291 +44,44 @@
         ResultSet rst=pst.executeQuery();
         if(rst.next()){
 %>
-    <div class="row" style="margin-top: 85px;">
-        <div class="col"><img class="img-fluid" src="<%=rst.getString("bannerimage")%>"></div>
+<div class="row">
+    <div class="col"><img class="img-fluid" src="diseaseimage/<%=rst.getString("bannerimage")%>" /></div>
+</div>
+<section>
+    <div class="row">
+        <div class="col"><span><%=rst.getString("diseasesname")%></span>
+            <p><%=rst.getString("content")%></p>
+        </div>
+        <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
     </div>
-    <section>
-        <div class="row">
-            <div class="col"><span><%=rst.getString("diseasesname")%></span>
-                <p>Paragraph</p>
-            </div>
-            <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="assets/img/Unani.png" style="border-radius: 40px;box-shadow: 2px 2px 20px;"></div>
+</section>
+<section>
+    <div class="row">
+        <div class="col">
+            <h1>Causes</h1>
         </div>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col">
-                <h1>Causes</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col"><img class="img-fluid" src="assets/img/Banner1.png"></div>
-        </div>
-        <div class="row justify-content-center mt-3">
-            <div class="col-lg-11">
-                <div class="row gy-2">
-                    <div class="col-6 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6"><span><%=rst.getString("causecont1")%></span></div>
+        <div class="col">
+            <h4>Related Problems</h4>
+            <div class="row">
+                <div class="col-lg-2"><img class="img-fluid" src="Unani.png" /></div>
+                <div class="col"><a class="text-decoration-none" href="#" style="border-color: rgb(13, 110, 253);color: rgb(0,0,0);font-weight: bold;">Link</a></div>
             </div>
         </div>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col">
-                <h1>Symptoms</h1>
-            </div>
+    </div>
+</section>
+<section>
+    <div class="row">
+        <div class="col">
+            <h1>Symptoms</h1>
         </div>
-        <div class="row">
-            <div class="col"><img class="img-fluid" src="assets/img/Banner1.png"></div>
-        </div>
-        <div class="row justify-content-center mt-3">
-            <div class="col-lg-11">
-                <div class="row owl-carousel owl-carousel-1">
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col text-center"><img></div>
-                                </div>
-                                <div class="row">
-                                    <div class="col text-center">
-                                        <h1>Heading</h1>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col">
-                                        <p>Paragraph</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section>
-        <div class="row">
-            <div class="col">
-                <h1>Heading</h1>
-            </div>
-        </div>
-        <div class="row justify-content-center">
-            <div class="col-lg-11">
-                <div class="row">
-                    <div class="col"></div>
-                </div>
-            </div>
-        </div>
-    </section>
+    </div>
+    <div class="row">
+        <div class="col"><span><%=rst.getString("symptomcont1")%></span></div>
+    </div>
+</section>
 <%}}catch(Exception ee)
     {
         System.out.println("Errors "+ee);

@@ -155,42 +155,7 @@
                                             <div id="slot2" class="image-slot"><label class="form-label">Content Image</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,2)">
                                                 <div id="preview2" class="image-preview-container"></div>
                                             </div>
-                                            <div id="slot3" class="image-slot"><label class="form-label">Cause 1</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,3)">
-                                                <div id="preview3" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot4" class="image-slot"><label class="form-label">Cause 2</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,4)">
-                                                <div id="preview4" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot5" class="image-slot"><label class="form-label">Cause 3</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,5)">
-                                                <div id="preview5" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot6" class="image-slot"><label class="form-label">Cause 4</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,6)">
-                                                <div id="preview6" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot7" class="image-slot"><label class="form-label">Cause 5</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,7)">
-                                                <div id="preview7" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot8" class="image-slot"><label class="form-label">Cause 6</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,8)">
-                                                <div id="preview8" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot9" class="image-slot"><label class="form-label">Symptoms 1</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,9)">
-                                                <div id="preview9" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot10" class="image-slot"><label class="form-label">Symptoms 2</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,10)">
-                                                <div id="preview10" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot11" class="image-slot"><label class="form-label">Symptoms 3</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,11)">
-                                                <div id="preview11" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot12" class="image-slot"><label class="form-label">Symptoms 4</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,12)">
-                                                <div id="preview12" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot13" class="image-slot"><label class="form-label">Symptoms 5</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,13)">
-                                                <div id="preview13" class="image-preview-container"></div>
-                                            </div>
-                                            <div id="slot14" class="image-slot"><label class="form-label">Symptoms 6</label><input class="form-control" type="file" name="image[]" onchange="selectImage(this,14)">
-                                                <div id="preview14" class="image-preview-container"></div>
-                                            </div>
+
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-6"><input class="form-control" type="text" name="diseasename" placeholder="Diseases name"></div>
@@ -204,109 +169,25 @@
                                         <h4 style="color: rgb(12,14,27);font-size: 22px;font-family: 'DM Sans';font-weight: bold;">Causes</h4>
                                         <div class="row">
                                             <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="causehead1" placeholder="First Cause 1"></div>
-                                                </div>
+
                                                 <div class="row mt-3">
                                                     <div class="col"><textarea class="form-control" name="causecont1" id="editor2"></textarea></div>
                                                 </div>
                                             </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" name="causehead2" type="text" placeholder="First Cause 2"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="causecont2" id="editor3"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" name="causehead3" type="text" placeholder="First Cause 3"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="causecont3" id="editor4"></textarea></div>
-                                                </div>
-                                            </div>
+
                                         </div>
-                                        <div class="row mt-4">
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="causehead4" placeholder="First Cause 4"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="causecont4" id="editor5"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="causehead5" placeholder="First Cause 5"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="causecont5" id="editor6"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="causehead6" placeholder="First Cause 6"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="causecont6" id="editor7"></textarea></div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <h1 style="color: rgb(12,14,27);font-size: 22px;font-family: 'DM Sans';font-weight: bold;">Symptoms</h1>
                                         <div class="row mt-4">
                                             <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead1" placeholder="Symptoms1"></div>
-                                                </div>
+
                                                 <div class="row mt-3">
                                                     <div class="col"><textarea class="form-control" name="sympcont1" id="editor8"></textarea></div>
                                                 </div>
                                             </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead2" placeholder="Symptoms2"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="sympcont2" id="editor9"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead3" placeholder="Symptoms3"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="sympcont3" id="editor10"></textarea></div>
-                                                </div>
-                                            </div>
+
                                         </div>
-                                        <div class="row mt-4">
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead4" placeholder="Symptoms4"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="sympcont4" id="editor11"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead5" placeholder="Symptoms5"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="sympcont5" id="editor12"></textarea></div>
-                                                </div>
-                                            </div>
-                                            <div class="col">
-                                                <div class="row mt-3">
-                                                    <div class="col"><input class="form-control" type="text" name="symphead6" placeholder="Symptoms6"></div>
-                                                </div>
-                                                <div class="row mt-3">
-                                                    <div class="col"><textarea class="form-control" name="sympcont6" id="editor13"></textarea></div>
-                                                </div>
-                                            </div>
-                                        </div>
+
                                         <div class="row mt-3"><div class="col text-center"><input class="btn btn-success" type="submit" value="Submit"></div></div>
                                     </form>
                                 </div>
