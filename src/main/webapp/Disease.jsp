@@ -44,15 +44,18 @@
         ResultSet rst=pst.executeQuery();
         if(rst.next()){
 %>
-<div class="row">
-    <div class="col"><img class="img-fluid" src="diseaseimage/<%=rst.getString("bannerimage")%>" /></div>
+<div class="row position-relative">
+    <div class="col">
+        <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
+        <button class="btn btn-primary book-btn">Book Appointment</button>
+    </div>
 </div>
 <section>
     <div class="row">
         <div class="col"><span><%=rst.getString("diseasesname")%></span>
             <p><%=rst.getString("content")%></p>
         </div>
-        <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
+        <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
     </div>
 </section>
 <section>
