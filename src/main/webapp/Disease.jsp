@@ -44,7 +44,7 @@
         ResultSet rst=pst.executeQuery();
         if(rst.next()){
 %>
-<div class="row position-relative">
+<div class="row position-relative" style="margin-top: 70px;">
     <div class="col">
         <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
         <button class="btn btn-primary book-btn">Book Appointment</button>
