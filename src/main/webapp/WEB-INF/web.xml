@@ -243,4 +243,12 @@
         <servlet-name>women</servlet-name>
         <url-pattern>/WomanHealth</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>admin</servlet-name>
+        <jsp-file>/AdminLogin.jsp</jsp-file>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>admin</servlet-name>
+        <url-pattern>/AdminLogin</url-pattern>
+    </servlet-mapping>
 </web-app>

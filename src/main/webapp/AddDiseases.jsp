@@ -1,3 +1,4 @@
+<%@ page import="java.io.PrintWriter" %>
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
 
@@ -14,6 +15,7 @@
 </head>
 
 <body>
+<%if(session.getAttribute("email")!=null){%>
     <div id="wrapper">
         <nav class="navbar align-items-start sidebar sidebar-dark accordion bg-gradient-primary p-0 navbar-dark" style="background: #74be5a;">
             <div class="container-fluid d-flex flex-column p-0"><a class="navbar-brand d-flex justify-content-center align-items-center sidebar-brand m-0" href="#"><img class="img-fluid w-50 mt-5" src="assets/img/Altaj%20Logo.png" height="89">
@@ -123,7 +125,7 @@
                             <li class="nav-item dropdown no-arrow">
                                 <div class="nav-item dropdown no-arrow"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#"><span class="d-none d-lg-inline me-2 text-gray-600 small">Admin</span><img class="border rounded-circle img-profile" src="assets/img/avatars/avatar1.jpeg"></a>
                                     <div class="dropdown-menu shadow dropdown-menu-end animated--grow-in"><a class="dropdown-item" href="#"><i class="fas fa-user fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Profile</a><a class="dropdown-item" href="#"><i class="fas fa-cogs fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Settings</a><a class="dropdown-item" href="#"><i class="fas fa-list fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Activity log</a>
-                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="#"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
+                                        <div class="dropdown-divider"></div><a class="dropdown-item" href="logout"><i class="fas fa-sign-out-alt fa-sm fa-fw me-2 text-gray-400"></i>&nbsp;Logout</a>
                                     </div>
                                 </div>
                             </li>
@@ -220,6 +222,23 @@
             </footer>
         </div><a class="border rounded d-inline scroll-to-top" href="#page-top"><i class="fas fa-angle-up"></i></a>
     </div>
+<%}else{
+    PrintWriter out1 = response.getWriter();
+    out1.println("<html><head><script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script></head><body>");
+    out1.println("<script>Swal.fire({\n" +
+            "  title: \"You are not Authorised\",\n" +
+            "  text: \"Login with admin username and password please.\",\n" +
+            "  icon: \"error\",\n" +
+            "  confirmButtonColor: \"#3085d6\",\n" +
+            "  confirmButtonText: \"Ok\"\n" +
+            "}).then((result) => {\n" +
+            "  if (result.isConfirmed) {\n" +
+            "   window.location.href=\"AdminLogin\"\n" +
+            "  }\n" +
+            "});</script>");
+    out1.println("</body></html>");
+
+}%>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="assets/js/Editor.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/jodit@latest/es2021/jodit.fat.min.js"></script>

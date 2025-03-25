@@ -43,13 +43,13 @@
                                     <div class="row justify-content-center mt-3">
                                         <div class="col-lg-9">
                                             <div class="row">
-                                                <div class="col align-self-center"><img class="img-fluid shadow" src="assets/dawakhana3.jpg" style="border-radius: 25px;"></div>
+                                                <div class="col align-self-center"><img class="img-fluid shadow" src="assets/img/dawakhana3.jpg" style="border-radius: 25px;"></div>
                                                 <div class="col">
                                                     <div class="row">
-                                                        <div class="col"><img class="img-fluid shadow" src="assets/dawakhana2.jpg" style="border-radius: 25px;"></div>
+                                                        <div class="col"><img class="img-fluid shadow" src="assets/img/dawakhana2.jpg" style="border-radius: 25px;"></div>
                                                     </div>
                                                     <div class="row mt-2">
-                                                        <div class="col"><img class="img-fluid shadow" src="assets/dawakhan1.jpg" style="border-radius: 25px;"></div>
+                                                        <div class="col"><img class="img-fluid shadow" src="assets/img/dawakhan1.jpg" style="border-radius: 25px;"></div>
                                                     </div>
                                                 </div>
                                             </div>

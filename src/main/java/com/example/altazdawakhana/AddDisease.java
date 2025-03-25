@@ -89,8 +89,8 @@ public class AddDisease extends HttpServlet {
             pst.setString(3, content);            // content
             pst.setString(4, causecont1);
             pst.setString(5, sympcont1);
-            pst.setString(6, imagePaths[0]);
-            pst.setString(7, imagePaths[1]);
+            pst.setString(6, imagenames[0]);
+            pst.setString(7, imagenames[1]);
             pst.setString(8, urlkey);
             int i = pst.executeUpdate();
             if (i != 0) {
