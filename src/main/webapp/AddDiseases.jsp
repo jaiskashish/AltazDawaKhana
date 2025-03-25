@@ -21,15 +21,15 @@
                 </a>
                 <hr class="sidebar-divider my-0">
                 <ul class="navbar-nav text-light" id="accordionSidebar">
-                    <li class="nav-item"><a class="nav-link" href="dashboard.jsp"><svg></svg><span style="color: #ffffff;font-size: 16px;font-family: 'DM Sans';font-weight: bold;">Dashboard</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="dashboard"><svg></svg><span style="color: #ffffff;font-size: 16px;font-family: 'DM Sans';font-weight: bold;">Dashboard</span></a></li>
                     <li class="nav-item">
                         <div class="nav-item dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #ffffff;font-weight: bold;">Diseases Management</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="AddDiseases.jsp">Add diseases</a><a class="dropdown-item" href="Deletediseases.jsp">Delete diseases</a><a class="dropdown-item" href="UpdateDisease.jsp">Update diseases</a></div>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="AddDiseases">Add diseases</a><a class="dropdown-item" href="Deletediseases">Delete diseases</a><a class="dropdown-item" href="UpdateDisease">Update diseases</a></div>
                         </div>
                     </li>
                     <li class="nav-item">
                         <div class="nav-item dropdown"><a class="dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="color: #ffffff;font-weight: bold;">Patients Management</a>
-                            <div class="dropdown-menu"><a class="dropdown-item" href="ChangeAppointment.jsp">Change Appointment</a><a class="dropdown-item" href="CancelAppointment.jsp">Cancel Appointment</a><a class="dropdown-item" href="PatientData.jsp">Patients Data</a></div>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="ChangeAppointment">Change Appointment</a><a class="dropdown-item" href="CancelAppointment">Cancel Appointment</a><a class="dropdown-item" href="PatientData">Patients Data</a></div>
                         </div>
                     </li>
                 </ul>

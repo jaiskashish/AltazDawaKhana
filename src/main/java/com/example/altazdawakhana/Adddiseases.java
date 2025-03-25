@@ -138,7 +138,7 @@ String diseasename=request.getParameter("diseasename");
     pst.setString(42,"/img/"+imagenames[15]);
   int i =pst.executeUpdate();
   if(i!=0){
-      response.sendRedirect("AddDiseases.jsp");
+      response.sendRedirect("AddDiseases");
   }
 
 }catch(Exception ee){

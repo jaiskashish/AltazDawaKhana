@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AltajDwakhana</title>
+    <title>Increase Height | Altaj Dawakhana</title>
      <link rel="icon" type="image/png" sizes="1473x1530" href="assets/img/Altaj%20Logo.png">
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans&amp;display=swap">
@@ -26,204 +26,34 @@
 </head>
 
 <body>
-    <div class="row" style="margin-top: 87px;">
+    <div class="row" style="margin-top: 75px;">
         <div class="col">
-            <header><img class="img-fluid" src="assets/img/Neurological%20main%20banner.png"></header>
+            <header><img class="img-fluid" src="assets/img/AL-TAJ%20DAWAKHANA%20HIGHT%20(2).png"></header>
         </div>
     </div>
     <div class="row justify-content-center mt-3">
-        <div class="col-lg-11 col-xl-11 col-xxl-11">
+        <div class="col-xl-11 col-xxl-11">
             <div class="row">
                 <div class="col">
                     <div class="card shadow" style="border-radius: 15px;">
                         <div class="card-body">
                             <div class="row">
                                 <div class="col">
-                                    <h4><strong>What is Neurological Problem ?</strong></h4>
-                                    <p style="font-size: 20px;">In Unani medicine, <strong>neurological problems</strong> are often referred to under terms such as <strong>"Amradh al-A'asab"</strong> (diseases of the nerves) or <strong>"Amradh al-Mukh"</strong> (diseases of the brain). These terms encompass a wide range of neurological disorders, including conditions that affect the nervous system, brain, and spinal cord.</p>
-                                    <h4 style="font-weight: bold;"><strong>Causes of Neurological Problem in Unani&nbsp;</strong></h4>
-                                    <p style="font-size: 20px;"><strong>1. Weakness of the Nerves&nbsp;</strong>:This refers to conditions where there is a weakening of the nerves, which can lead to symptoms like numbness, tingling, muscle weakness, and a lack of coordination. It may be associated with conditions like <strong>neuropathy</strong> or <strong>multiple sclerosis</strong>.<br><strong>2. Insanity or Psychosis</strong>:&nbsp;<strong>Junun</strong> is the term used for psychotic disorders, where the brain is severely affected, and the individual may experience hallucinations, delusions, or confusion. The Unani approach attributes this to imbalances in <strong>black bile (sauda)</strong> or <strong>phlegm (balgham)</strong>.<br><strong>3. Paralysis or Hemiplegia&nbsp;</strong>:This refers to partial or total paralysis of the body, often caused by a stroke or nerve injury. It is considered a neurological condition in Unani, where the <strong>nervous system imbalance</strong> and <strong>humoral disturbances</strong> are believed to play a key role.<br><strong>4. Epilepsy or Seizures&nbsp;</strong>:&nbsp;<strong>Qad</strong> refers to epilepsy, where an individual experiences sudden and recurrent seizures. Unani attributes this condition to an imbalance in the <strong>nervous system</strong>, often caused by an excess of <strong>black bile</strong> or <strong>disturbance in the brain's humors</strong>.<br><strong>5. Headaches and Migraines&nbsp;</strong>:While headaches can also be caused by stress or emotional factors, they are considered neurological in Unani, especially in cases of severe migraines, which are thought to result from an imbalance in the humors affecting the brain.<br><strong>6. Tremors or Parkinsonism&nbsp;</strong>: This condition refers to tremors, shaking, or loss of control over movements, similar to Parkinson's disease. Unani attributes these tremors to an imbalance in the <strong>nervous system</strong> and an excess of <strong>cold humors</strong> affecting the muscles and nerves.<br><strong>7. Nerve Pain or Neuralgia&nbsp;</strong>:This is intense pain along the course of a nerve, typically caused by inflammation or injury. In Unani, it is linked to the excessive accumulation of <strong>phlegm (balgham)</strong> or <strong>yellow bile (safra)</strong>, which affects the nerves.<br><strong>8. Cognitive Disorders&nbsp;</strong>:These refer to conditions that impair thinking, memory, and decision-making, such as Alzheimer's disease or other forms of dementia. In Unani, these are often attributed to weakness of the <strong>brain</strong> (Da'fa al-Mukh) and disturbances in the <strong>humors</strong>.<br><br></p>
-                                    <h4 style="font-weight: bold;"><br><strong>Treatment of Neurological Problem in Unani</strong></h4>
-                                    <p style="font-size: 20px;">Unani treatment for neurological disorders focuses on restoring balance in the body's humors (especially phlegm, yellow bile, and black bile) and improving the health of the nervous system through:<br><strong>Herbal Remedies</strong>: Specific herbs like <strong>Brahmi</strong>, <strong>Ashwagandha</strong>, <strong>Saffron</strong>, <strong>Ginseng</strong>, and <strong>Ginkgo Biloba</strong> are used to enhance brain function, reduce inflammation, and nourish the nerves.<br><strong>Dietary Adjustments</strong>: A balanced diet that nourishes the brain and nervous system, avoiding heavy or irritating foods, and emphasizing lighter, nourishing foods that are rich in vitamins and minerals.<br><strong>Cupping (Hijama)</strong>: Cupping therapy is often used to improve circulation and alleviate pain, particularly for conditions like neuralgia and paralysis.<br><strong>Massage and Relaxation Techniques</strong>: Techniques like <strong>Shahi-taj (head massage)</strong>, <strong>relaxation</strong> methods, and <strong>aromatherapy</strong> are often employed to reduce stress and tension affecting the nervous system.<br><strong>Restoring Humoral Balance</strong>: Treatments are aimed at restoring the balance of humors, particularly <strong>phlegm</strong> and <strong>yellow bile</strong>, which Unani practitioners believe contribute to neurological disturbances.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row justify-content-center mt-5">
-        <div class="col-md-11 col-lg-11 col-xl-11">
-            <div class="row gy-2 justify-content-center">
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Anxiety.png" style="border-top-left-radius: 15px;border-top-right-radius: 15px;"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>anxiety</strong> is often referred to as <strong>"Qalb-i-Furq"</strong> (literally meaning <strong>heart distress</strong>) or <strong>"A'lam al-Qalb"</strong> (emotional pain of the heart). Anxiety is considered a disturbance or imbalance in the <strong>humors</strong>, particularly the <strong>black bile (sauda)</strong>, which is thought to affect the heart and mind.</p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Depression.png" style="border-top-left-radius: 15px;border-top-right-radius: 15px;"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>depression</strong> is commonly referred to as <strong>"Huzn"</strong> (sadness or melancholy) or <strong>"Khamud al-Qalb"</strong> (heaviness of the heart). Depression is considered a <strong>mental and emotional disturbance</strong> that arises from an imbalance in the body’s <strong>humors.</strong></p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Epilepsy.png" style="border-top-left-radius: 15px;border-top-right-radius: 15px;"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>epilepsy</strong> is referred to as <strong>"Qad"</strong> (or <strong>"Sarr‘"</strong> in some cases), which encompasses conditions involving sudden, recurrent seizures or convulsions. Unani views epilepsy as a result of a disturbance or imbalance in the body's humors,<br><br></p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row gy-2 justify-content-center mt-5">
-        <div class="col-xl-11">
-            <div class="row gy-2 justify-content-center">
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Headache.png"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani, headaches are seen as a sign of <strong>humoral imbalance</strong> and are treated holistically through herbal remedies, dietary changes, and lifestyle adjustments. The goal is to restore balance to the body's humors and eliminate the underlying causes of the pain.</p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Memory%20loss.png"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>memory loss</strong> is referred to as&nbsp; which literally translates to <strong>forgetfulness</strong> or <strong>loss of memory</strong>. It is considered a condition that results from an imbalance or weakness in the <strong>brain</strong>, <strong>nervous system</strong>, or <strong>humors</strong>.<br><br></p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Stress.png"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>stress</strong> is generally referred to as &nbsp;<strong>disturbance</strong> or <strong>agitation</strong>. It encompasses a range of emotional and physical disturbances that affect the body's balance, particularly the <strong>nervous system</strong> and <strong>humors</strong>.<br><br></p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row row-cols-1 mt-5">
-        <div class="col-lg-11">
-            <div class="row gy-2 justify-content-center">
-                <div class="col-11 col-lg-4">
-                    <div class="card shadow" style="border-radius: 15px;">
-                        <div class="card-body">
-                            <header><img class="img-fluid" src="assets/img/Migraine.png"></header>
-                            <div class="row">
-                                <div class="col">
-                                    <p class="text-center"><br>In Unani medicine, <strong>migraine</strong> is referred to as &nbsp;<strong>headache</strong> or <strong>pain of the head</strong>. However, when describing <strong>migraine</strong>, it is often seen as a specific type of severe or <strong>throbbing headache</strong> that is typically associated with a <strong>disturbance in the body's humors.</strong></p>
-                                    <div style="background: #16d99c;text-align: center;"><button class="btn btn-primary" type="button" style="background: rgb(56,200,51);border-radius: 20px;">Read more&nbsp;&nbsp;<svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" height="1em" viewBox="0 0 24 24" width="1em" fill="currentColor" style="font-size: 25px;">
-                                                <g>
-                                                    <rect fill="none" height="24" width="24"></rect>
-                                                </g>
-                                                <g>
-                                                    <g>
-                                                        <polygon points="6.41,6 5,7.41 9.58,12 5,16.59 6.41,18 12.41,12"></polygon>
-                                                        <polygon points="13,6 11.59,7.41 16.17,12 11.59,16.59 13,18 19,12"></polygon>
-                                                    </g>
-                                                </g>
-                                            </svg></button></div>
+                                    <h4><strong>Increase Your Height</strong></h4>
+                                    <p style="font-size: 20px;font-family: 'DM Sans';">In Unani medicine, height growth is primarily viewed as a balance of the body's internal elements and the overall health of various organs, particularly the bones and muscles. To increase height according to Unani principles, a holistic approach is emphasized, focusing on improving digestion, blood circulation, and strengthening bones. Here are some general Unani recommendations to support healthy growth and potentially increase height:<br><strong>1.</strong>&nbsp;<strong>Dietary Recommendations</strong>:<br><strong>Use of Nutrients</strong>: <br>Unani medicine emphasizes a balanced diet that provides nourishment to the body. Foods rich in <strong>proteins, vitamins</strong>, and <strong>minerals</strong> are important. For example:<br><strong>Milk</strong>: It is considered a good source of calcium for bone strength.<br><strong>Honey and Black Seed (Nigella sativa)</strong>: <br>These can help with the body's overall growth and vitality.<br><strong>Herbs</strong>: Some herbs like&nbsp;&nbsp;<strong>Shatavari</strong> (Asparagus racemosus), <strong>Ashwagandha</strong> (Withania somnifera), and <strong>Zaffran</strong> (saffron) are recommended in Unani for boosting health and growth.<br><strong>Protein-Rich Foods</strong>: These include lentils, beans, and meats, which help in cell development and muscle building.<br><strong>Bone Strengthening Foods</strong>: Foods high in calcium, such as yogurt, milk, and leafy green vegetables, are emphasized to help strengthen bones.<br><strong>2.</strong> <strong>Unani Herbal Remedies</strong>:<br><strong>Kesar (Saffron)</strong>: <br>Believed to promote growth and overall health.<br><strong>Ginseng</strong>: Often recommended for increasing stamina and improving body function.<br><strong>Raat Rani (Cestrum nocturnum)</strong>: Known for improving circulation and strengthening the bones.<br><strong>Haridra (Turmeric)</strong>: <br>Known to purify the blood and enhance tissue growth.<br><strong>3. Massage Therapy</strong>:<br>Regular <strong>oil massages</strong> are encouraged for stimulating growth. This helps improve blood circulation and nourish muscles and joints. Oil massages with oils like <strong>Mustard Oil</strong> or <strong>Sesame Oil</strong> are commonly used in Unani practices.<br><strong>4.</strong> <strong>Physical Activity</strong>:<br><strong>Exercise</strong>: Stretching exercises, yoga, and other forms of physical activity are often recommended to increase flexibility and improve posture, which can make an individual appear taller.<br><strong>Hanging and Stretching</strong>: Activities like hanging on bars or doing stretches are believed to aid in spinal elongation and bone strengthening.<br><strong>5. Proper Rest and Sleep</strong>:<br>Rest is crucial for the body's healing and growth. Unani medicine highlights the importance of quality sleep for tissue repair and growth hormone secretion.<br><strong>6.</strong> <strong>Use of Unani Formulas (Tibb)</strong>: <br>Specific formulations may be recommended by a Unani practitioner based on your constitution (Mizaj) and needs. These may include specific syrups or powders to improve bone health, circulation, and overall vitality.<br><strong>7. Mind-Body Balance</strong>:<br><strong>Mental well-being</strong> is crucial for physical growth in Unani medicine. Stress can inhibit the body's natural growth, so practices like meditation, relaxation techniques, and proper emotional health are advised.<br><strong>8.</strong> <strong>Avoiding Growth Stunting Factors</strong>:<br>Avoid excess consumption of foods that might hinder digestion, such as overly greasy or spicy foods. Similarly, excessive stress, inadequate sleep, and lack of exercise are viewed as factors that can negatively affect growth.</p>
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-10">
+                                            <div class="row gy-3 align-items-center">
+                                                <div class="col-lg-6 col-xl-5"><img class="img-fluid shadow" src="assets/img/h1.png" style="border-radius: 20px;"></div>
+                                                <div class="col-lg-6 col-xl-5 col-xxl-4">
+                                                    <div class="row gy-3">
+                                                        <div class="col-lg-12 col-xl-12"><img class="img-fluid" src="assets/img/h2%20(2).png" style="border-radius: 20px;"></div>
+                                                        <div class="col-xl-12"><img class="img-fluid" src="assets/img/h2.png" style="border-radius: 20px;"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -237,46 +67,46 @@
             <div class="collapse navbar-collapse text-center" id="navcol-3" style="background: #ffffff;">
                 <ul class="navbar-nav d-flex mx-auto mt-3">
                     <li class="nav-item"><a class="nav-link active" href="altajdawakhana.com" style="font-weight: bold;">Home</a></li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="MenHealth.jsp" style="font-weight: bold;">Men Health</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="MenHealth" style="font-weight: bold;">Men Health</a>
                         <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-infertility">Infertility</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night discharge</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a><a class="dropdown-item" href="<%=request.getContextPath()%>/men-health-problem/masturbation-addiction">Masturbation Addiction</a></div>
                     </li>
-                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="WomanHealth.jsp" style="font-weight: bold;">Women Health</a>
+                    <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="WomanHealth" style="font-weight: bold;">Women Health</a>
                         <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/women-infertility">Infertility</a>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="Mensuration.jsp" style="text-decoration: none;margin-left: 16px;color: rgb(0,0,0);">Mensuration Problems</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="Mensuration" style="text-decoration: none;margin-left: 16px;color: rgb(0,0,0);">Mensuration Problems</a>
                                 <div class="dropdown-menu" style="border-radius: 0px;margin-top: -40px;height: 272.2px;border-style: none;border-bottom-style: solid;border-left: 2px solid rgb(0,0,0);margin-left: -0.4px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/premenstrual-syndrome">Premenstrual syndrome</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/menorrhagia">Menorrhagia</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/dysmenorrhea">Dysmenorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/amenorrhea">Amenorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hypomenorrhea">Hypomenorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/metrorrhagia">Metrorrhagia</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/oligomenorrhea">Oligomenorrhea</a></div>
                             </div><a class="dropdown-item mt-2" href="<%=request.getContextPath()%>/health-problem/women-sexual-arousal-disorder">Sexual arousal disorder</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/women-low-sexual-desire">Low sexual desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/women-masturbation-addiction">Masturbation Addiction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/sexual-pain-disorder">Sexual pain disorder</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/orgasmic-disorder">Orgasmic disorder</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/loose-breasts">Loose Breasts</a>
                         </div>
                     </li>
-                    <li class="nav-item"><a class="nav-link" href="HairTreatment.jsp" style="font-weight: bold;">Hair Treatment</a></li>
+                    <li class="nav-item"><a class="nav-link" href="HairTreatment" style="font-weight: bold;">Hair Treatment</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="#" style="font-weight: bold;">General Health</a>
                         <div class="dropdown-menu dropdown-menu-start" style="border-radius: 1px;margin-top: 0px;width: 215px;border-top-style: none;border-right: 1.8px solid rgb(0,0,0) ;border-left-style: none;">
-                            <div class="nav-item dropdown show dropend" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle nested-toggle" href="Neurological%20Problems.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Neurological Problems&nbsp;</a>
+                            <div class="nav-item dropdown show dropend" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle nested-toggle" href="Neurological%20Problems" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Neurological Problems&nbsp;</a>
                                 <div class="dropdown-menu show nested-dropdown" data-bs-popper="none" style="border-radius: 1px;margin-top: -8px;border-style: none;border-bottom-style: solid;height: 401.5px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/migrane" style="border-bottom-width: 2px;border-bottom-style: none;">Migraine</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/headache" style="border-bottom-width: 2px;border-bottom-style: none;">Headache</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/stress" style="border-bottom-width: 2px;border-bottom-style: none;">Stress</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/anxiety" style="border-bottom-width: 2px;border-bottom-style: none;">Anxiety</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/depression" style="border-bottom-width: 2px;border-bottom-style: none;">Depression</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/memory-loss" style="border-bottom-width: 2px;border-bottom-style: none;">Memory Loss</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/epilepsy" style="border-bottom-width: 2px;border-bottom-style: none;">Epilepsy</a></div>
                             </div>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle nested-toggle" href="CardioDisease.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Heart Problems&nbsp;</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle nested-toggle" href="CardioDisease" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Heart Problems&nbsp;</a>
                                 <div class="dropdown-menu nested-dropdown" style="border-radius: 1px;margin-top: -40px;border-style: none;border-bottom-style: solid;height: 401.0px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/high-blood-pressure" style="border-bottom-width: 2px;border-bottom-style: none;">High Blood Pressure</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-blood-pressure" style="border-bottom-width: 2px;border-bottom-style: none;">Low Blood Pressure</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/heart-weakness" style="border-bottom-width: 2px;border-bottom-style: none;">Heart Weakness</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/high-cholesterol" style="border-bottom-width: 2px;border-bottom-style: none;">High Cholesterol</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/blocked-arteries" style="border-bottom-width: 2px;border-bottom-style: none;">Blocked Arteries</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/palpitations" style="border-bottom-width: 2px;border-bottom-style: none;">Palpitations</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/angina" style="border-bottom-width: 2px;border-bottom-style: none;">Angina</a></div>
                             </div>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="RespiratoryDisease.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Respiratory Problems&nbsp;</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="RespiratoryDisease" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Respiratory Problems&nbsp;</a>
                                 <div class="dropdown-menu" style="border-radius: 1px;margin-top: -71px;border-style: none;border-bottom-style: solid;height: 399.2px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/chronic-bronchitis" style="border-bottom-width: 2px;border-bottom-style: none;">Chronic Bronchitis</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/pneumonia" style="border-bottom-width: 2px;border-bottom-style: none;">Pneumonia</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/sinusitis" style="border-bottom-width: 2px;border-bottom-style: none;">Sinusitis</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/allergic-rhinitis" style="border-bottom-width: 2px;border-bottom-style: none;">Allergic Rhinitis</a></div>
                             </div>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="KidneyDiseases.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Kidney Diseases&nbsp;</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="KidneyDiseases" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Kidney Diseases&nbsp;</a>
                                 <div class="dropdown-menu nested-dropdown" style="border-radius: 1px;margin-top: -106px;border-style: none;border-bottom-style: solid;height: 402.8px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/chronic-health-problem" style="border-bottom-width: 2px;border-bottom-style: none;">Chronic Kidney Disease</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/urinary-tract-infection" style="border-bottom-width: 2px;border-bottom-style: none;">Urinary Tract Infections</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/nephrotic-syndrome" style="border-bottom-width: 2px;border-bottom-style: none;">Nephrotic Syndrome</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/polycystic-health-problem" style="border-bottom-width: 2px;border-bottom-style: none;">Polycystic Kidney Disease</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/renal-faliure" style="border-bottom-width: 2px;border-bottom-style: none;">Renal Failure</a></div>
                             </div>
-                            <div class="nav-item dropdown show dropend mt-2" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle" href="Diabetes.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Diabetes&nbsp;</a>
+                            <div class="nav-item dropdown show dropend mt-2" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle" href="Diabetes" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Diabetes&nbsp;</a>
                                 <div class="dropdown-menu show nested-dropdown" data-bs-popper="none" style="border-radius: 1px;margin-top: -139px;border-style: none;border-bottom-style: solid;height: 405.5px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hypoglycemia" style="border-bottom-width: 2px;border-bottom-style: none;">Hypoglycaemia&nbsp;</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hyperglycemia" style="border-bottom-width: 2px;border-bottom-style: none;">Hyperglycaemia&nbsp;</a></div>
                             </div>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="Thyroid.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Thyroid Disorders&nbsp;</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="Thyroid" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Thyroid Disorders&nbsp;</a>
                                 <div class="dropdown-menu nested-dropdown" style="border-radius: 1px;margin-top: -173px;border-style: none;border-bottom-style: solid;height: 405.6px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hypothyroidism" style="border-bottom-width: 2px;border-bottom-style: none;">Hypothyroidism</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hyperthyroidism" style="border-bottom-width: 2px;border-bottom-style: none;">Hyperthyroidism</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/goiter" style="border-bottom-width: 2px;border-bottom-style: none;">Goiter</a></div>
                             </div>
-                            <div class="nav-item dropdown show dropend mt-2" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle" href="GastroProblems.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Gastrointestinal Dieases&nbsp;</a>
+                            <div class="nav-item dropdown show dropend mt-2" style="text-align: left;"><a aria-expanded="true" data-bs-toggle="dropdown" class="dropdown-toggle" href="GastroProblems" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Gastrointestinal Dieases&nbsp;</a>
                                 <div class="dropdown-menu show nested-dropdown" data-bs-popper="none" style="border-radius: 1px;margin-top: -202px;border-style: none;border-bottom-style: solid;height: 402.2px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/flatulence" style="border-bottom-width: 2px;border-bottom-style: none;">Flatulence</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/bloating" style="border-bottom-width: 2px;border-bottom-style: none;">Bloating</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/constipation" style="border-bottom-width: 2px;border-bottom-style: none;">Constipation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/stomach-pain" style="border-bottom-width: 2px;border-bottom-style: none;">Stomach Pain</a></div>
                             </div>
-                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="LiverProblems.jsp" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Liver Diseases&nbsp;</a>
+                            <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="LiverProblems" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Liver Diseases&nbsp;</a>
                                 <div class="dropdown-menu nested-dropdown" style="border-radius: 1px;margin-top: -234px;border-style: none;border-bottom-style: solid;height: 402.5px;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/fatty-liver" style="border-bottom-width: 2px;border-bottom-style: none;">Fatty Liver</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/hepatitis" style="border-bottom-width: 2px;border-bottom-style: none;">Hepatitis</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/liver-cirrhosis" style="border-bottom-width: 2px;border-bottom-style: none;">Liver Cirrhosis</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/jaundice" style="border-bottom-width: 2px;border-bottom-style: none;">Jaundice</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/liver-enlargement" style="border-bottom-width: 2px;border-bottom-style: none;">Liver Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/gallbladder-stone" style="border-bottom-width: 2px;border-bottom-style: none;">Gallbladder Stones</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/liver-digestion" style="border-bottom-width: 2px;border-bottom-style: none;">Liver Weakness &amp; Poor Digestion</a></div>
                             </div>
                             <div class="nav-item dropdown dropend mt-2" style="text-align: left;"><a aria-expanded="false" data-bs-toggle="dropdown" class="dropdown-toggle" href="#" style="text-decoration: none;margin-left: 8px;color: rgb(84,84,84);">Skin Disease&nbsp;</a>
                                 <div class="dropdown-menu nested-dropdown" style="border-radius: 1px;margin-top: -269.5px;height: 405.9px;border-style: none;border-bottom-style: solid;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/eczema" style="border-bottom-width: 2px;border-bottom-style: none;">Eczema</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/psoriasis" style="border-bottom-width: 2px;border-bottom-style: none;">Psoriasis</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/acne-pimples" style="border-bottom-width: 2px;border-bottom-style: none;">Acne &amp; Pimples</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/vitiligo" style="border-bottom-width: 2px;border-bottom-style: none;">Vitiligo</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/fungal-infection" style="border-bottom-width: 2px;border-bottom-style: none;">Fungal Infection</a></div>
-                            </div><a class="dropdown-item mt-1 text-muted" href="Obesity.jsp" style="margin-left: -8px;">Obesity</a><a class="dropdown-item mt-1 text-muted" href="IncreaseWeight.jsp" style="margin-left: -8px;">Weight Increase</a><a class="dropdown-item text-muted" href="Height.jsp" style="margin-left: -6px;">Long Height</a>
+                            </div><a class="dropdown-item mt-1 text-muted" href="Obesity" style="margin-left: -8px;">Obesity</a><a class="dropdown-item mt-1 text-muted" href="IncreaseWeight" style="margin-left: -8px;">Weight Increase</a><a class="dropdown-item text-muted" href="IncreaseHeight" style="margin-left: -6px;">Long Height</a>
                         </div>
                     </li>
                 </ul><button class="btn btn-primary" type="button" style="border-radius: 30px;background: #009746;font-family: 'DM Sans', sans-serif;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
@@ -294,30 +124,30 @@
                         <h5 class="fs-6" style="font-weight: bold;">About</h5>
                         <hr style="height: 1px;border-width: 2px;width: auto;">
                         <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="AboutUs.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">About Us</a></li><li><a class="link-secondary" href="ContactUs.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Contact Us</a></li>
-                            <li><a class="link-secondary" href="Unani.jsp" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Unani</a></li>
-                            <li><a class="link-secondary" href="History.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">History</a></li>
-                            <li><a class="link-secondary" href="UnaniTreatment.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Treatment</a></li>
+                            <li><a class="link-secondary" href="AboutUs" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">About Us</a></li><li><a class="link-secondary" href="ContactUs" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Contact Us</a></li>
+                            <li><a class="link-secondary" href="Unani" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Unani</a></li>
+                            <li><a class="link-secondary" href="History" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">History</a></li>
+                            <li><a class="link-secondary" href="UnaniTreatment" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Treatment</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                         <h5 class="fs-6" style="font-weight: bold;">Why  Altaj  Dawakhana</h5>
                         <hr style="height: 1px;border-width: 2px;">
                         <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="Awards.jsp" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Awards</a></li>
-                            <li><a class="link-secondary" href="PatientRights.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Patients Rights&nbsp;</a></li>
-                            <li><a class="link-secondary" href="Confidentiality.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Confidential</a>ity</li>
-                            <li><a class="link-secondary" href="CaseStudy.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Case Study</a></li>
+                            <li><a class="link-secondary" href="Awards" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Awards</a></li>
+                            <li><a class="link-secondary" href="PatientRights" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Patients Rights&nbsp;</a></li>
+                            <li><a class="link-secondary" href="Confidentiality" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Confidential</a>ity</li>
+                            <li><a class="link-secondary" href="CaseStudy" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Case Study</a></li>
                         </ul>
                     </div>
                     <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
                         <h5 class="fs-6" style="font-weight: bold;">Policies</h5>
                         <hr style="height: 1px;border-width: 2px;">
                         <ul class="list-unstyled">
-                            <li><a class="link-secondary" href="PatientSupport.jsp" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Patient Support</a></li>
-                            <li><a class="link-secondary" href="PrivacyPolicy.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Privacy Policy</a></li>
-                            <li><a class="link-secondary" href="TermsCondition.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Terms &amp; Conditions</a></li>
-                            <li><a class="link-secondary" href="Disclaimer.jsp" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Disclaimer</a></li>
+                            <li><a class="link-secondary" href="PatientSupport" style="font-family: 'DM Sans';font-size: 18px;text-decoration: none;color: rgb(136,149,160);">Patient Support</a></li>
+                            <li><a class="link-secondary" href="PrivacyPolicy" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Privacy Policy</a></li>
+                            <li><a class="link-secondary" href="TermsCondition" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Terms &amp; Conditions</a></li>
+                            <li><a class="link-secondary" href="Disclaimer" style="font-size: 18px;font-family: 'DM Sans'; text-decoration: none;">Disclaimer</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
