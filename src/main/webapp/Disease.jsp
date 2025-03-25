@@ -5,55 +5,70 @@
 
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>AltajDwakhana</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans&amp;display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-    <link rel="stylesheet" href="assets/css/buttons.css">
-    <link rel="stylesheet" href="assets/css/Cardhover.css">
-    <link rel="stylesheet" href="assets/css/flipcard.css">
-    <link rel="stylesheet" href="assets/css/glowingbutton.css">
-    <link rel="stylesheet" href="assets/css/Hero-Clean-Reverse-images.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.13/iconfont/material-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,1,0&amp;icon_names=gastroenterology">
-    <link rel="stylesheet" href="assets/css/listscroll.css">
-    <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
-    <link rel="stylesheet" href="assets/css/NestedDropdown.css">
-    <link rel="stylesheet" href="assets/css/Socialicons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
-</head>
-
-<body>
 <%
-    String urlkey=(String)request.getAttribute("maincategory");
     try{
+        String urlkey=(String)request.getAttribute("maincategory");
+        String dname=null;
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con=null;
         con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Altajdatabase", "dbadmin", "SROffice@9205");
         System.out.println("Connected");
+        PreparedStatement pst1=(PreparedStatement) con.prepareStatement("select * from Diseases where urlkey=?");
+        pst1.setString(1,urlkey);
+        ResultSet rst1=null;
+        rst1=pst1.executeQuery();
+        if(rst1.next()){
+            dname=rst1.getString("diseasesname");
+        }
+%>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title><%=dname%> | Altaj Dawakhana</title>
+    <link rel="icon" type="image/png" sizes="1473x1530" href="<%= request.getContextPath() %>/assets/img/Altaj%20Logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans&amp;display=swap">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/buttons.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/Cardhover.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/flipcard.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/glowingbutton.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/Hero-Clean-Reverse-images.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/material-icons@1.13.13/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,200,1,0&amp;icon_names=gastroenterology">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/listscroll.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/Navbar-Centered-Links-icons.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/NestedDropdown.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/Socialicons.css">
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/styles.css">
+</head>
+
+<body>
+<%
+
+
         PreparedStatement pst=null;
         pst=(PreparedStatement) con.prepareStatement("select * from Diseases where urlkey=?");
 
         pst.setString(1,urlkey);
         ResultSet rst=pst.executeQuery();
+        String category=null;
         if(rst.next()){
+            category=rst.getString("category");
 %>
 <div class="row position-relative" style="margin-top: 70px;">
     <div class="col">
         <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
-        <button class="btn btn-primary book-btn">Book Appointment</button>
+        <button class="btn btn-primary custom-btn" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
     </div>
 </div>
 <section>
     <div class="row">
-        <div class="col"><span><%=rst.getString("diseasesname")%></span>
-            <p><%=rst.getString("content")%></p>
+        <div class="col" style="margin-left: 10px;"><h3><%=rst.getString("diseasesname")%></h3>
+            <p style="margin-left: 10px;"><%=rst.getString("content")%></p>
         </div>
         <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
     </div>
@@ -61,28 +76,36 @@
 <section>
     <div class="row">
         <div class="col">
-            <h1>Causes</h1>
+            <h1 style="margin-left: 10px;">Causes</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-6"><span><%=rst.getString("causecont1")%></span></div>
-        <div class="col">
+        <div class="col-lg-9" style="margin-left: 10px;"><span style="margin-left: 10px;"><%=rst.getString("causecont1")%></span></div>
+        <div class="col ">
             <h4>Related Problems</h4>
+            <%
+            PreparedStatement pst2=(PreparedStatement) con.prepareStatement("select * from Diseases where category=?");
+            pst2.setString(1,category);
+            ResultSet rst2=null;
+            rst2=pst2.executeQuery();
+            while(rst2.next()){
+            %>
             <div class="row">
-                <div class="col-lg-2"><img class="img-fluid" src="Unani.png" /></div>
-                <div class="col"><a class="text-decoration-none" href="#" style="border-color: rgb(13, 110, 253);color: rgb(0,0,0);font-weight: bold;">Link</a></div>
+                <div class="col-lg-2"><img class="img-fluid" src="<%=request.getContextPath()%>/diseaseimage/<%=rst2.getString("contentimage")%>" /></div>
+                <div class="col"><a class="text-decoration-none" href="<%=request.getContextPath()%>/health-problem/<%=rst2.getString("urlkey")%>" style="border-color: rgb(13, 110, 253);color: rgb(0,0,0);font-weight: bold;"><%=rst2.getString("diseasesname")%></a></div>
             </div>
+            <%}%>
         </div>
     </div>
 </section>
 <section>
     <div class="row">
-        <div class="col">
+        <div class="col" style="margin-left: 10px;">
             <h1>Symptoms</h1>
         </div>
     </div>
     <div class="row">
-        <div class="col"><span><%=rst.getString("symptomcont1")%></span></div>
+        <div class="col" style="margin-left: 10px;"><span style="margin-left: 10px;"><%=rst.getString("symptomcont1")%></span></div>
     </div>
 </section>
 <%}}catch(Exception ee)
@@ -90,7 +113,7 @@
         System.out.println("Errors "+ee);
     }%>
     <nav class="navbar navbar-expand-md fixed-top bg-body py-3" style="height: 73.5px;">
-        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="height: 47.512px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid" src="<%= request.getContextPath() %>/assets/img/Altaj%20Logo.png" style="height: 47.512px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center" id="navcol-3" style="background: #ffffff;">
                 <ul class="navbar-nav d-flex mx-auto mt-3">
                     <li class="nav-item"><a class="nav-link active" href="altajdawakhana.com" style="font-weight: bold;">Home</a></li>
@@ -264,24 +287,24 @@
             </div>
         </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/js/bs-init.js"></script>
-    <script src="assets/js/datepicker.js"></script>
-    <script src="assets/js/dropdown.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-    <script src="assets/js/slide.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bs-init.js"></script>
+<script src="assets/js/datepicker.js"></script>
+<script src="assets/js/dropdown.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+<script src="assets/js/slide.js"></script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-(function(){
-var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-s1.async=true;
-s1.src='https://embed.tawk.to/67c7ef1bfa7c7819105750af/1ilifs1fc';
-s1.charset='UTF-8';
-s1.setAttribute('crossorigin','*');
-s0.parentNode.insertBefore(s1,s0);
-})();
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/67c7ef1bfa7c7819105750af/1ilifs1fc';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
 </script>
 <!--End of Tawk.to Script-->
 </body>
