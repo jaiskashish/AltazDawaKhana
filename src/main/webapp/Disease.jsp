@@ -59,7 +59,7 @@
         if(rst.next()){
             category=rst.getString("category");
 %>
-<div class="row position-relative" style="margin-top: 70px;">
+<div class="row position-relative mt-2" style="margin-top: 70px;">
     <div class="col">
         <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
         <button class="btn btn-primary custom-btn" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
@@ -90,7 +90,7 @@
             rst2=pst2.executeQuery();
             while(rst2.next()){
             %>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-lg-2"><img class="img-fluid" src="<%=request.getContextPath()%>/diseaseimage/<%=rst2.getString("contentimage")%>" /></div>
                 <div class="col"><a class="text-decoration-none" href="<%=request.getContextPath()%>/health-problem/<%=rst2.getString("urlkey")%>" style="border-color: rgb(13, 110, 253);color: rgb(0,0,0);font-weight: bold;"><%=rst2.getString("diseasesname")%></a></div>
             </div>
