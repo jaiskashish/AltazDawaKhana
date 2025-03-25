@@ -66,6 +66,7 @@ public class AddDisease extends HttpServlet {
 
             }
             String diseasename=request.getParameter("diseasename");
+            String category=request.getParameter("category");
             String urlkey=request.getParameter("urlkey");
             String content=request.getParameter("content");
 
@@ -80,17 +81,17 @@ public class AddDisease extends HttpServlet {
             System.out.println("Connected");
             PreparedStatement pst = null;
             pst = (PreparedStatement) con.prepareStatement(
-                    "INSERT INTO Diseases(diseasesname, content, causecont1, symptomcont1, bannerimage, contentimage, urlkey) " +
-                            "VALUES(?,?,?,?,?,?,?)"
+                    "INSERT INTO Diseases(category,diseasesname, content, causecont1, symptomcont1, bannerimage, contentimage, urlkey) " +
+                            "VALUES(?,?,?,?,?,?,?,?)"
             );
-
-            pst.setString(1, diseasename);         // diseasesname
-            pst.setString(2, content);            // content
-            pst.setString(3, causecont1);
-            pst.setString(4, sympcont1);
-            pst.setString(5, imagePaths[0]);
-            pst.setString(6, imagePaths[1]);
-            pst.setString(7, urlkey);
+            pst.setString(1,category);
+            pst.setString(2, diseasename);         // diseasesname
+            pst.setString(3, content);            // content
+            pst.setString(4, causecont1);
+            pst.setString(5, sympcont1);
+            pst.setString(6, imagePaths[0]);
+            pst.setString(7, imagePaths[1]);
+            pst.setString(8, urlkey);
             int i = pst.executeUpdate();
             if (i != 0) {
                 response.sendRedirect("AddDiseases.jsp");

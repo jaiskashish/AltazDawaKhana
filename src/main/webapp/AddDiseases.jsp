@@ -157,9 +157,26 @@
                                             </div>
 
                                         </div>
-                                        <div class="row">
-                                            <div class="col-lg-6"><input class="form-control" type="text" name="diseasename" placeholder="Diseases name"></div>
+                                        <div class="row gy-2">
+                                            <div class="col"><input class="form-control" type="text" name="diseasename" placeholder="Diseases name"></div>
                                         </div>
+
+                                            <div class="col"><select class="form-control" name="category">
+                                                <option selected disabled>Select Category</option>
+                                                <option value="Men Health">Men Health</option>
+                                                <option value="Women Health">Women Health</option>
+                                                <option value="Men Health">Men Health</option>
+                                                <option value="Neurological Problems">Neurological Problems</option>
+                                                <option value="Heart Problems">Heart Problems</option>
+                                                <option value="Respiratiory Problems">Respiratory Problems</option>
+                                                <option value="Kidney Diseases">Kidney Diseases</option>
+                                                <option value="Diabetes">Diabetes</option>
+                                                <option value="Thyroid Disorders">Thyroid Disorders</option>
+                                                <option value="Gastro Problems">Gastro Problems</option>
+                                                <option value="Liver Diseases">Liver Diseases</option>
+                                                <option value="Skin Diseases">Skin Diseases</option>
+                                            </select> </div>
+
                                         <div class="row mt-2">
                                             <div class="col"><input class="form-control" type="text" name="urlkey" placeholder="URL key"></div>
                                         </div>
