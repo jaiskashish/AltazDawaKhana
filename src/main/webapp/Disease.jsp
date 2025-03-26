@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/styles.css">
 </head>
 
-<body>
+<body style="overflow:hidden;">
 <%
 
 
@@ -68,7 +68,7 @@
 <section>
     <div class="row">
         <div class="col" style="margin-left: 10px;"><h3><%=rst.getString("diseasesname")%></h3>
-            <p style="margin-left: 10px;"><%=rst.getString("content")%></p>
+            <p style="font-size:16px; margin-left: 10px;"><%=rst.getString("content")%></p>
         </div>
         <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
     </div>
