@@ -59,7 +59,7 @@
         if(rst.next()){
             category=rst.getString("category");
 %>
-<div class="row position-relative mt-2" style="margin-top: 75px;">
+<div class="row position-relative" style="margin-top: 80px;">
     <div class="col">
         <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
         <button class="btn btn-primary custom-btn" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
