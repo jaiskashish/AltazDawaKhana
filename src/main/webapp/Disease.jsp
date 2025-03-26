@@ -66,7 +66,7 @@
     </div>
 </div>
 <section>
-    <div class="row">
+    <div class="row mt-2">
         <div class="col" style="margin-left: 10px;"><h3><%=rst.getString("diseasesname")%></h3>
             <p style="font-size:16px; margin-left: 10px;"><%=rst.getString("content")%></p>
         </div>
