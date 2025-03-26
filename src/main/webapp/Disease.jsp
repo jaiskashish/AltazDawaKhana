@@ -46,7 +46,7 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/styles.css">
 </head>
 
-<body style="overflow:hidden;">
+<body style="overflow-x:hidden;">
 <%
 
 
