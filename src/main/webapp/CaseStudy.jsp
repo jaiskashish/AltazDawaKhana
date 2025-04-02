@@ -22,7 +22,29 @@
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
     <link rel="stylesheet" href="assets/css/NestedDropdown.css">
     <link rel="stylesheet" href="assets/css/Socialicons.css">
-    <link rel="stylesheet" href="assets/css/styles.css">
+        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/hc-offcanvas-nav.css">
+    <style>
+        #main-nav {
+            display: none; /* Initially hide the sidebar */
+        }
+        #mainnav{
+            display: flex;
+            align-items: center; /* Keep it aligned */
+            justify-content: space-between; /* Adjust content spacing */
+            height: auto; /* Prevent unnecessary height increase */
+        }
+
+        /* Media query to show sidebar only on mobile screens */
+        @media (max-width: 900px) {
+            #main-nav {
+                display: none; /* We'll control this with JavaScript */
+            }
+            #mainnav{
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -125,13 +147,13 @@
             </div>
         </div>
     </div>
-    <nav class="navbar navbar-expand-md fixed-top bg-body py-3" style="height: 73.5px;">
+    <nav class="navbar navbar-expand-md fixed-top bg-body py-3" id="mainnav" style="height: 73.5px;">
         <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="height: 47.512px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse text-center" id="navcol-3" style="background: #ffffff;">
                 <ul class="navbar-nav d-flex mx-auto mt-3">
                     <li class="nav-item"><a class="nav-link active" href="altajdawakhana.com" style="font-weight: bold;">Home</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="MenHealth" style="font-weight: bold;">Men Health</a>
-                        <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-infertility">Infertility</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night discharge</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a><a class="dropdown-item" href="<%=request.getContextPath()%>/men-health-problem/masturbation-addiction">Masturbation Addiction</a></div>
+                        <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-infertility">Infertility</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night discharge</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/masturbation-addiction">Masturbation Addiction</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="WomanHealth" style="font-weight: bold;">Women Health</a>
                         <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/women-infertility">Infertility</a>
@@ -176,7 +198,187 @@
             </div>
         </div>
     </nav>
-    <footer class="mt-2" style="background: #dffbc9;;">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light d-block d-lg-none nav3" style="margin-top: 0px;height: 65px;">
+        <div class="container-fluid">
+            <a class="toggle" href="#" style="color:#000000!important;margin-right: 30px;">
+                <span></span>
+            </a>
+
+            <a href="https://altajdawakhana.com/"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="margin-left: 40px;width: 50px;"></a>
+            <a href="https://altajdawakhana.com/" style="border-color: rgb(0,0,0);color: rgb(1,1,1);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor" style="font-size: 18px;border-color: rgb(0,0,0);">
+                <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
+                <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7V64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V185l52.8 46.4c8 7 12 15 11 24zM248 192c-13.3 0-24 10.7-24 24v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V216c0-13.3-10.7-24-24-24H248z"></path>
+            </svg></a>
+            <a href="ContactUs" style="color: #000000;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M172.3 501.7C27 291 0 269.4 0 192 0 86 86 0 192 0s192 86 192 192c0 77.4-27 99-172.3 309.7-9.5 13.8-29.9 13.8-39.5 0zM192 272c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80z"/></svg></a>
+
+            <button class="btn btn-primary" type="button" style="border-radius: 30px;background: #009746;font-family: 'DM Sans', sans-serif;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Dropdown link
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="main-nav">
+
+        <ul class="first-nav mt-5">
+            <li class="menheath">
+                <span>Men Health</span>
+                <ul>
+
+                    <li><a href="<%=request.getContextPath()%>/health-problem/men-infertility">Men Infertility</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night Discharge</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/masturbation-addiction">Masturbation Addiction</a></li>
+                </ul>
+            </li>
+            <li class="womenhealth">
+                <span>Women Health</span>
+                <ul>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/women-infertility">Infertility</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/Mensuration">Mensuration</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/premenstrual-syndrome">Premenstrual Syndrome</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/menorrhagia">Menorrhagia</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/dysmenorrhea">Dysmenorrhea</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/amenorrhea">Amenorrhea</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hypomenorrhea">Hypomenorrhea</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/metrorrhagia">Metrorrhagia</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/oligomenorrhea">Oligomenorrhea</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/women-sexual-arousal-disorder">Sexual Arousal Disorder</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/low-sexual-desire">Low Sexual Desire</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/women-masturbation-addiction">Masturbation Addiction</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/sexual-pain-disorder">Sexual Pain Disorder</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/orgasmic-disorder">Orgasmic Disorder</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/loose-breasts">Loose Breasts</a></li>
+
+
+                </ul>
+            </li>
+            <li class="hairtreatment"><a href="<%=request.getContextPath()%>/HairTreatment">Hair Treatment</a></li>
+            <li class="generalhealth">
+                <span>General Health</span>
+                <ul>
+
+                    <li><a href="<%=request.getContextPath()%>/NeurologicalProblems">Neuro Logical Problems</a>
+                        <ul>
+
+                            <li><a href="<%=request.getContextPath()%>/health-problem/migrane">Migrane</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/headache">Headache</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/stress">Stress</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/anxiety">Anxiety</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/depression">Depression</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/memory-loss">Memory Loss</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/epilepsy">Epilepsy</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/CardioDisease">Heart Problems</a>
+                        <ul>
+
+                            <li><a href="<%=request.getContextPath()%>/health-problem/high-blood-pressure">High Blood Pressure</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/low-blood-pressure">Low Blood Pressure</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/heart-weakness">Heart Weakness</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/high-cholesterol">High Cholesterol</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/blocked-arteries">Blocked Arteries</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/palpitations">Palpitations</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/angina">Angina</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/Respiratory Disease">RespiratoryDisease</a>
+                        <ul>
+
+                            <li><a href="<%=request.getContextPath()%>/health-problem/chronic-bronchitis">Chronic Bronchitis</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/pneumonia">Pneumonia</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/sinusitis">Sinusitis</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/allergic-rhinitis">Allergic Rhinitis</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/KidneyDiseases">Kidney Diseases</a>
+                        <ul>
+
+                            <li><a href="<%=request.getContextPath()%>/health-problem/chronic-health-problem">Chronic Kidney Disease</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/urinary-tract-infection">Urinary Tract Infection</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/heart-weakness">Heart Weakness</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/nephrotic-syndrome">Nephrotic Syndrome</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/polycystic-health-problem">Polycystic Health Problem</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/renal-faliure">Renal Faliure</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/Diabetes">Diabetes</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hypoglycemia">Hypoglycemia</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hyperglycemia">Hyperglycemia</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/Thyroid">Thyroid</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hypothyroidism">Hypothyroidism</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hyperthyroidism">Hyperthyroidism</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/goiter">Goiter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/GastroProblems">Gastro Problems</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/flatulence">Flatulence</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/bloating">Bloating</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/constipation">Constipation</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/stomach-pain">Stomach Pain</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/LiverProblems">Liver Problems</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/fatty-liver">Fatty Liver</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/hepatitis">Hepatitis</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/liver-cirrhosis">Liver Cirrhosis</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/jaundice">Jaundice</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/liver-enlargement">Liver Enlargement</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/gallbladder-stone">Gallbladder Stone</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/liver-digestion">Liver Weakness</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/skin-diseases">Skin Diseases</a>
+                        <ul>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/eczema">Eczema</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/psoriasis">Psoriasis</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/acne-pimples">Acne & Pimples</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/vitiligo">Vitiligo</a></li>
+                            <li><a href="<%=request.getContextPath()%>/health-problem/fungal-infection">Fungal Infection</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/Obesity">Obesity</a></li>
+                    <li><a href="<%=request.getContextPath()%>/IncreaseWeight/eczema">Increase Weight</a></li>
+                    <li><a href="<%=request.getContextPath()%>/health-problem/IncreaseHeight">Increase Height</a></li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>    <footer class="mt-2" style="background: #dffbc9;;">
         <div class="row mt-4">
             <div class="col"><button class="btn" type="button" style="margin-top: -23px;margin-left: 11px;background: #dffbc9;border-radius: 48px;border: 4.8px solid #ffffff;font-weight: bold;font-size: 20px;">Get in Touch</button></div>
         </div>
@@ -306,7 +508,93 @@
     <script src="assets/js/datepicker.js"></script>
     <script src="assets/js/dropdown.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-    <script src="assets/js/slide.js"></script>
+        <script src="assets/js/slide.js"></script>
+    <script src="assets/js/hc-offcanvas-nav.js"></script>
+    <script>
+        (function($) {
+            'use strict';
+
+            // call our plugin
+            var Nav = new hcOffcanvasNav('#main-nav', {
+                disableAt: false,
+                customToggle: '.toggle',
+                levelSpacing: 40,
+                navTitle: 'Altaj Dawakhana',
+                levelTitles: true,
+                levelTitleAsBack: true,
+                pushContent: '#container',
+                labelClose: false
+            });
+
+            // add new items to original nav
+            $('#main-nav').find('li.add').children('a').on('click', function() {
+                var $this = $(this);
+                var $li = $this.parent();
+                var items = eval('(' + $this.attr('data-add') + ')');
+
+                $li.before('<li class="new"><a href="#">'+items[0]+'</a></li>');
+
+                items.shift();
+
+                if (!items.length) {
+                    $li.remove();
+                }
+                else {
+                    $this.attr('data-add', JSON.stringify(items));
+                }
+
+                Nav.update(true); // update DOM
+            });
+
+            // demo settings update
+
+            const update = function(settings) {
+                if (Nav.isOpen()) {
+                    Nav.on('close.once', function() {
+                        Nav.update(settings);
+                        Nav.open();
+                    });
+
+                    Nav.close();
+                }
+                else {
+                    Nav.update(settings);
+                }
+            };
+
+            $('.actions').find('a').on('click', function(e) {
+                e.preventDefault();
+
+                var $this = $(this).addClass('active');
+                var $siblings = $this.parent().siblings().children('a').removeClass('active');
+                var settings = eval('(' + $this.data('demo') + ')');
+
+                if ('theme' in settings) {
+                    $('body').removeClass().addClass('theme-' + settings['theme']);
+                }
+                else {
+                    update(settings);
+                }
+            });
+
+            $('.actions').find('input').on('change', function() {
+                var $this = $(this);
+                var settings = eval('(' + $this.data('demo') + ')');
+
+                if ($this.is(':checked')) {
+                    update(settings);
+                }
+                else {
+                    var removeData = {};
+                    $.each(settings, function(index, value) {
+                        removeData[index] = false;
+                    });
+
+                    update(removeData);
+                }
+            });
+        })(jQuery);
+    </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();

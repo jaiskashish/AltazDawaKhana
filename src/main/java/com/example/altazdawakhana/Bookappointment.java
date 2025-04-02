@@ -49,7 +49,7 @@ public class Bookappointment extends HttpServlet {
        int i= pst.executeUpdate();
        if(i!=0){
            PrintWriter out1 = response.getWriter();
-           out1.println("<html><head><script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script></head><body>");
+           out1.println("<html><head><script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script> </head><body>");
            out1.println("<script>Swal.fire({\n" +
                    "  title: \"Successful\",\n" +
                    "  text: \"Your Appointment is booked sucessfully. Your booking id is "+appointid+" \",\n" +
@@ -67,7 +67,7 @@ public class Bookappointment extends HttpServlet {
        }
        else {
            PrintWriter out1 = response.getWriter();
-           out1.println("<html><head><script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script></head><body>");
+           out1.println("<html><head><script src=https://cdn.jsdelivr.net/npm/sweetalert2@11></script> </head><body>");
            out1.println("<script>Swal.fire({\n" +
                    "  title: \"Oops...\",\n" +
                    "  text: \"Your Appointment is not booked. Try again later.\",\n" +

@@ -8,18 +8,19 @@ $(document).ready(function(){
     autoHeight:true,
     autoplayTimeout:1000,
     autoplayHoverPause:true,
-       center: true,
+
        responsive: {
         0: {  // For mobile screens (0px - 600px)
             items: 1,
-            center:true
+
+
         },
            600: { // Tablets (600px - 1000px)
-            items: 3,  
+            items: 3,
             center: true
         },
         1000: { // Desktops (1000px+)
-            items: 4,  
+            items: 4,
             center: true
         }
        }

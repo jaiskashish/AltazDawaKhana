@@ -12,6 +12,27 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jodit@latest/es2021/jodit.fat.min.css">
     <link rel="stylesheet" href="cdn.datatables.net/2.2.2/css/dataTables.dataTables.min.css">
     <link rel="stylesheet" href="assets/css/ImagePreview.css">
+    <style>
+        #main-nav {
+            display: none; /* Initially hide the sidebar */
+        }
+        #mainnav{
+            display: flex;
+            align-items: center; /* Keep it aligned */
+            justify-content: space-between; /* Adjust content spacing */
+            height: auto; /* Prevent unnecessary height increase */
+        }
+
+        /* Media query to show sidebar only on mobile screens */
+        @media (max-width: 900px) {
+            #main-nav {
+                display: none; /* We'll control this with JavaScript */
+            }
+            #mainnav{
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body id="page-top">

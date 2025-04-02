@@ -44,6 +44,29 @@
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/NestedDropdown.css">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/Socialicons.css">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/styles.css">
+
+    <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/hc-offcanvas-nav.css">
+    <style>
+        #main-nav {
+            display: none; /* Initially hide the sidebar */
+        }
+        #mainnav{
+            display: flex;
+            align-items: center; /* Keep it aligned */
+            justify-content: space-between; /* Adjust content spacing */
+            height: auto; /* Prevent unnecessary height increase */
+        }
+
+        /* Media query to show sidebar only on mobile screens */
+        @media (max-width: 900px) {
+            #main-nav {
+                display: none; /* We'll control this with JavaScript */
+            }
+            #mainnav{
+                display: none;
+            }
+        }
+    </style>
 </head>
 
 <body style="overflow-x:hidden;">
@@ -61,8 +84,8 @@
 %>
 <div class="row position-relative" style="margin-top: 80px;">
     <div class="col">
-        <img class="img-fluid w-100" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
-        <button class="btn btn-primary custom-btn" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
+        <img class="img-fluid w-100" id="bannerImage" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("bannerimage")%>" alt="Banner Image">
+        <button class="btn btn-primary custom-btn" id="colorButton" style="background: #009746;border-radius: 29px;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
     </div>
 </div>
 <section>
@@ -118,7 +141,7 @@
                 <ul class="navbar-nav d-flex mx-auto mt-3">
                     <li class="nav-item"><a class="nav-link active" href="altajdawakhana.com" style="font-weight: bold;">Home</a></li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="MenHealth" style="font-weight: bold;">Men Health</a>
-                        <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-infertility">Infertility</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night discharge</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a><a class="dropdown-item" href="<%=request.getContextPath()%>/men-health-problem/masturbation-addiction">Masturbation Addiction</a></div>
+                        <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-infertility">Infertility</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-premature-ejaculation">Premature Ejaculation</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/erectile-dysfunction">Erectile Dysfunction</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-night-discharge">Night discharge</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/penis-enlargement">Penis Enlargement</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/men-low-sexual-desire">Low Sexual Desire</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/spermatorrhea">Spermatorrhea</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/low-sperm-count">Low Sperm Count</a><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/masturbation-addiction">Masturbation Addiction</a></div>
                     </li>
                     <li class="nav-item dropdown"><a class="dropdown-toggle nav-link" aria-expanded="false" data-bs-toggle="dropdown" href="WomanHealth" style="font-weight: bold;">Women Health</a>
                         <div class="dropdown-menu" style="border-radius: 1px;border-top-style: none;border-right-style: none;border-left-style: none;"><a class="dropdown-item" href="<%=request.getContextPath()%>/health-problem/women-infertility">Infertility</a>
@@ -293,7 +316,93 @@
 <script src="assets/js/datepicker.js"></script>
 <script src="assets/js/dropdown.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
-<script src="assets/js/slide.js"></script>
+    <script src="assets/js/slide.js"></script>
+    <script src="assets/js/hc-offcanvas-nav.js"></script>
+    <script>
+        (function($) {
+            'use strict';
+
+            // call our plugin
+            var Nav = new hcOffcanvasNav('#main-nav', {
+                disableAt: false,
+                customToggle: '.toggle',
+                levelSpacing: 40,
+                navTitle: 'Altaj Dawakhana',
+                levelTitles: true,
+                levelTitleAsBack: true,
+                pushContent: '#container',
+                labelClose: false
+            });
+
+            // add new items to original nav
+            $('#main-nav').find('li.add').children('a').on('click', function() {
+                var $this = $(this);
+                var $li = $this.parent();
+                var items = eval('(' + $this.attr('data-add') + ')');
+
+                $li.before('<li class="new"><a href="#">'+items[0]+'</a></li>');
+
+                items.shift();
+
+                if (!items.length) {
+                    $li.remove();
+                }
+                else {
+                    $this.attr('data-add', JSON.stringify(items));
+                }
+
+                Nav.update(true); // update DOM
+            });
+
+            // demo settings update
+
+            const update = function(settings) {
+                if (Nav.isOpen()) {
+                    Nav.on('close.once', function() {
+                        Nav.update(settings);
+                        Nav.open();
+                    });
+
+                    Nav.close();
+                }
+                else {
+                    Nav.update(settings);
+                }
+            };
+
+            $('.actions').find('a').on('click', function(e) {
+                e.preventDefault();
+
+                var $this = $(this).addClass('active');
+                var $siblings = $this.parent().siblings().children('a').removeClass('active');
+                var settings = eval('(' + $this.data('demo') + ')');
+
+                if ('theme' in settings) {
+                    $('body').removeClass().addClass('theme-' + settings['theme']);
+                }
+                else {
+                    update(settings);
+                }
+            });
+
+            $('.actions').find('input').on('change', function() {
+                var $this = $(this);
+                var settings = eval('(' + $this.data('demo') + ')');
+
+                if ($this.is(':checked')) {
+                    update(settings);
+                }
+                else {
+                    var removeData = {};
+                    $.each(settings, function(index, value) {
+                        removeData[index] = false;
+                    });
+
+                    update(removeData);
+                }
+            });
+        })(jQuery);
+    </script>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -305,6 +414,43 @@
         s1.setAttribute('crossorigin','*');
         s0.parentNode.insertBefore(s1,s0);
     })();
+</script>
+
+<script>
+    window.onload = function() {
+        const img = document.getElementById("bannerImage");
+        if (!img.src) return;
+
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+
+        img.crossOrigin = "Anonymous"; // Prevent CORS issues if the image is from another domain
+
+        img.onload = function() {
+            canvas.width = img.width;
+            canvas.height = img.height;
+            ctx.drawImage(img, 0, 0, img.width, img.height);
+
+            // Extract pixel data
+            const imageData = ctx.getImageData(0, 0, img.width, img.height).data;
+
+            let r = 0, g = 0, b = 0, count = 0;
+            for (let i = 0; i < imageData.length; i += 4 * 100) { // Sample every 100th pixel
+                r += imageData[i];     // Red
+                g += imageData[i + 1]; // Green
+                b += imageData[i + 2]; // Blue
+                count++;
+            }
+
+            // Calculate average color
+            r = Math.floor(r / count);
+            g = Math.floor(g / count);
+            b = Math.floor(b / count);
+
+            const color = `rgb(${r}, ${g}, ${b})`;
+            document.getElementById("colorButton").style.backgroundColor = color;
+        };
+    };
 </script>
 <!--End of Tawk.to Script-->
 </body>

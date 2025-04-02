@@ -159,6 +159,27 @@
             font-size: 9px;
         }
     </style>
+    <style>
+        #main-nav {
+            display: none; /* Initially hide the sidebar */
+        }
+        #mainnav{
+            display: flex;
+            align-items: center; /* Keep it aligned */
+            justify-content: space-between; /* Adjust content spacing */
+            height: auto; /* Prevent unnecessary height increase */
+        }
+
+        /* Media query to show sidebar only on mobile screens */
+        @media (max-width: 900px) {
+            #main-nav {
+                display: none; /* We'll control this with JavaScript */
+            }
+            #mainnav{
+                display: none;
+            }
+        }
+    </style>
 </head>
 <body>
 <!-- From Uiverse.io by Smit-Prajapati -->
