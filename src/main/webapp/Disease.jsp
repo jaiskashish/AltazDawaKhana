@@ -406,7 +406,7 @@
                         </ul>
                     </div>
                     <div class="col-lg-3 text-center text-lg-start d-flex flex-column align-items-center order-first align-items-lg-start order-lg-last item social">
-                        <div class="fw-bold d-flex align-items-center mb-2"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="height: 80px;"></div>
+                        <div class="fw-bold d-flex align-items-center mb-2"><img class="img-fluid" src="<%=request.getContextPath()%>/assets/img/Altaj%20Logo.png" style="height: 80px;"></div>
                         <p class="text-muted copyright">At Altaj Dawakhana, we have the experience and expertise of treating over 1.41 lakh patients successfully over last 35 years. We can ensure our patients safe and scientific solutions for their ailments.&nbsp;</p>
                     </div>
                 </div>
