@@ -499,7 +499,7 @@
 <script src="assets/js/dropdown.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
     <script src="assets/js/slide.js"></script>
-    <script src="assets/js/hc-offcanvas-nav.js"></script>
+    <script src="<%=request.getContextPath()%>/assets/js/hc-offcanvas-nav.js"></script>
     <script>
         (function($) {
             'use strict';
