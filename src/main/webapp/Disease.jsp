@@ -114,7 +114,7 @@
             while(rst2.next()){
             %>
             <div class="row mt-2">
-                <div class="col-lg-2"><img class="img-fluid" src="<%=request.getContextPath()%>/diseaseimage/<%=rst2.getString("contentimage")%>" /></div>
+                <div class="col-2 col-lg-2"><img class="img-fluid" src="<%=request.getContextPath()%>/diseaseimage/<%=rst2.getString("contentimage")%>" /></div>
                 <div class="col"><a class="text-decoration-none" href="<%=request.getContextPath()%>/health-problem/<%=rst2.getString("urlkey")%>" style="border-color: rgb(13, 110, 253);color: rgb(0,0,0);font-weight: bold;"><%=rst2.getString("diseasesname")%></a></div>
             </div>
             <%}%>
