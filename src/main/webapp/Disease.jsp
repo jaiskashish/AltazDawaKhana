@@ -71,7 +71,7 @@
 
 <body style="overflow-x:hidden;">
 <nav class="navbar navbar-expand-md fixed-top bg-body py-3" id="mainnav" style="height: 73.5px;">
-    <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="height: 47.512px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+    <div class="container"><a class="navbar-brand d-flex align-items-center" href="#"><img class="img-fluid" src="<%= request.getContextPath() %>/assets/img/Altaj%20Logo.png" style="height: 47.512px;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-3"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse text-center" id="navcol-3" style="background: #ffffff;">
             <ul class="navbar-nav d-flex mx-auto mt-3">
                 <li class="nav-item"><a class="nav-link active" href="altajdawakhana.com" style="font-weight: bold;">Home</a></li>
@@ -127,7 +127,7 @@
             <span></span>
         </a>
 
-        <a href="https://altajdawakhana.com/"><img class="img-fluid" src="assets/img/Altaj%20Logo.png" style="margin-left: 40px;width: 50px;"></a>
+        <a href="https://altajdawakhana.com/"><img class="img-fluid" src="<%= request.getContextPath() %>/assets/img/Altaj%20Logo.png" style="margin-left: 40px;width: 50px;"></a>
         <a href="https://altajdawakhana.com/" style="border-color: rgb(0,0,0);color: rgb(1,1,1);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor" style="font-size: 18px;border-color: rgb(0,0,0);">
             <!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc. -->
             <path d="M575.8 255.5c0 18-15 32.1-32 32.1h-32l.7 160.2c.2 35.5-28.5 64.3-64 64.3H128.1c-35.3 0-64-28.7-64-64V287.6H32c-18 0-32-14-32-32.1c0-9 3-17 10-24L266.4 8c7-7 15-8 22-8s15 2 21 7L416 100.7V64c0-17.7 14.3-32 32-32h32c17.7 0 32 14.3 32 32V185l52.8 46.4c8 7 12 15 11 24zM248 192c-13.3 0-24 10.7-24 24v80c0 13.3 10.7 24 24 24h80c13.3 0 24-10.7 24-24V216c0-13.3-10.7-24-24-24H248z"></path>
