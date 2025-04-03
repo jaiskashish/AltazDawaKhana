@@ -59,11 +59,22 @@
 
         /* Media query to show sidebar only on mobile screens */
         @media (max-width: 900px) {
-            #main-nav {
-                display: none; /* We'll control this with JavaScript */
+            #mainnav {
+                display: none; /* Hide the main nav completely */
             }
-            #mainnav{
-                display: none;
+            .nav3 { /* Style nav3 for mobile */
+                display: block;
+                height: auto; /* Remove fixed height */
+            }
+            .nav3 .container-fluid {
+                flex-wrap: wrap; /* Allow elements to wrap */
+            }
+            .nav3 img {
+                margin: 0; /* Adjust image margins */
+                width: 40px; /* Adjust image size */
+            }
+            .nav3 .btn {
+                margin-top: 10px; /* Adjust button margin */
             }
         }
     </style>
