@@ -134,7 +134,7 @@
         </svg></a>
         <a href="ContactUs" style="color: #000000;text-decoration: none;"><svg xmlns="http://www.w3.org/2000/svg" height="18" width="18" viewBox="0 0 384 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M172.3 501.7C27 291 0 269.4 0 192 0 86 86 0 192 0s192 86 192 192c0 77.4-27 99-172.3 309.7-9.5 13.8-29.9 13.8-39.5 0zM192 272c44.2 0 80-35.8 80-80s-35.8-80-80-80-80 35.8-80 80 35.8 80 80 80z"/></svg></a>
 
-        <button class="btn btn-primary" type="button" style="border-radius: 30px;background: #009746;font-family: 'DM Sans', sans-serif;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal" style="font-size: 8px;">Book Appointment</button>
+        <button class="btn btn-primary" type="button" style="border-radius: 30px;background: #009746;font-size:8px!important;font-family: 'DM Sans', sans-serif;border-style: none;" data-bs-target="#Bookappointment" data-bs-toggle="modal">Book Appointment</button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav">
                 <li class="nav-item">
