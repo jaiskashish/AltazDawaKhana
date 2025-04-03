@@ -89,11 +89,11 @@
     </div>
 </div>
 <section>
-    <div class="row mt-2">
+    <div class="row justify-content-center mt-2">
         <div class="col" style="margin-left: 10px;"><h3><%=rst.getString("diseasesname")%></h3>
             <p style="font-size:16px; margin-left: 10px;"><%=rst.getString("content")%></p>
         </div>
-        <div class="col d-flex justify-content-center"><img class="img-fluid w-75" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
+        <div class="col-9 d-flex justify-content-center"><img class="img-fluid w-75" src="<%=request.getContextPath()%>/diseaseimage/<%=rst.getString("contentimage")%>" style="border-radius: 40px;box-shadow: 2px 2px 20px;" /></div>
     </div>
 </section>
 <section>
