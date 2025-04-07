@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html data-bs-theme="light" lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Altaj Dawakhana</title>
-     <link rel="icon" type="image/png" sizes="1473x1530" href="assets/img/Altaj%20Logo.png">
+    <link rel="icon" type="image/png" sizes="1473x1530" href="assets/img/Altaj%20Logo.png">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=DM+Sans&amp;display=swap">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
@@ -23,7 +22,7 @@
     <link rel="stylesheet" href="assets/css/Navbar-Centered-Links-icons.css">
     <link rel="stylesheet" href="assets/css/NestedDropdown.css">
     <link rel="stylesheet" href="assets/css/Socialicons.css">
-        <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/hc-offcanvas-nav.css">
     <style>
         #main-nav {
@@ -47,6 +46,15 @@
         }
     </style>
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-522QR8Y1YR"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-522QR8Y1YR');
+    </script>
 </head>
 
 <body style="font-family: 'DM Sans', sans-serif;overflow-x:hidden;">
