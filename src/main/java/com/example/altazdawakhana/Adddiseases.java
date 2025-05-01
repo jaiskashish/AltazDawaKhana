@@ -89,7 +89,7 @@ String diseasename=request.getParameter("diseasename");
     String sympcont6=request.getParameter("sympcont6");
     Class.forName("com.mysql.cj.jdbc.Driver");
     Connection con=null;
-    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Altajdatabase", "dbadmin", "SROffice@9205");
+    con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/altajdatabase", "dbadmin", "SROffice@9205");
     System.out.println("Connected");
     PreparedStatement pst=null;
     pst=(PreparedStatement) con.prepareStatement("insert into Diseases(diseasesname,content,cause1,causecont1,cause2,causecont2,cause3,causecont3,cause4,causecont4,cause5,causecont5,cause6,causecont6,symptom1,symptomcont1,symptom2,symptomcont2,symptom3,symptomcont3,symptom4,symptomcont4,symptom5,symptomcont5,symptom6,symptomcont6,bannerimage,contentimage,causebanner,causeimage1,causeimage2,causeimage3,causeimage4,causeimage5,causeimage6,symptombanner,symptomimage1,symptomimage2,symptomimage3,symptomimage4,symptomimage5,symptomimage6,urlkey)"+" values(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)");

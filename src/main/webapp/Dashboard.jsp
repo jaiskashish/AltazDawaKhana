@@ -45,7 +45,7 @@
 <% try{
     Class.forName("com.mysql.cj.jdbc.Driver");
    Connection con=null;
-   con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Altajdatabase", "dbadmin", "SROffice@9205");
+   con=(Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/altajdatabase", "dbadmin", "SROffice@9205");
     System.out.println("Connected");
 %>
 

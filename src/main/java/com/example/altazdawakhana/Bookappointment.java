@@ -22,7 +22,7 @@ public class Bookappointment extends HttpServlet {
    try{
        Class.forName("com.mysql.cj.jdbc.Driver");
        Connection con=null;
-       con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Altajdatabase", "dbadmin", "SROffice@9205");
+       con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/altajdatabase", "dbadmin", "SROffice@9205");
        System.out.println("Connected");
        Random random1= new Random();
        long id=(long)(random1.nextDouble()*9_000_000_000L)+1_000_000_000L;

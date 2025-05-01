@@ -11,7 +11,7 @@
         String dname=null;
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection con=null;
-        con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/Altajdatabase", "dbadmin", "SROffice@9205");
+        con = (Connection) DriverManager.getConnection("jdbc:mysql://localhost:3306/altajdatabase", "dbadmin", "SROffice@9205");
         System.out.println("Connected");
         PreparedStatement pst1=(PreparedStatement) con.prepareStatement("select * from Diseases where urlkey=?");
         pst1.setString(1,urlkey);
